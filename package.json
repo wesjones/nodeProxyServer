@@ -1,6 +1,6 @@
 {
   "name": "nodeproxyserver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Proxy web services and static web content",
   "main": "server.js",
   "scripts": {

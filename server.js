@@ -9,7 +9,7 @@ var express = require('express'),
     httpProxy = require('http-proxy'),
 	io = require('socket.io').listen(server);
 
-var prefs = require('preferences');
+var prefs = require(__dirname + '/preferences.js');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 
