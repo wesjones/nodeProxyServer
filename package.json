@@ -1,6 +1,6 @@
 {
   "name": "nodeproxyserver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Proxy web services and static web content",
   "main": "server.js",
   "scripts": {
@@ -13,7 +13,7 @@
   ],
   "author": "TJ Downes, Wes Jones",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.13.3",
     "http": "0.0.0",
     "http-proxy": "^1.12.0",
